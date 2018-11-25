@@ -6,6 +6,7 @@
 	[Phone]		 NVARCHAR (50)  NULL, 
 	[Address]	 NVARCHAR (50)  NULL, 
 	[AadharNo]	 NVARCHAR (50)  NULL,
+	[PanCardNo]	 NVARCHAR (50)  NULL,
     CONSTRAINT [PK_Employee] PRIMARY KEY CLUSTERED ([Id] ASC)
 );
 
